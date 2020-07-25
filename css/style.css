@@ -113,6 +113,10 @@
     height: 3rem;
 }
 
+nav .nav-wrapper a {
+    font-size: 18px;
+}
+
 .logo {
     width: 200px;
 }
@@ -155,9 +159,12 @@
     background-color: rgba(0, 34, 72, 0.9);
 }
 
+#testimonial .row.p-4>.col {
+    padding: 2em;
+}
+
 #testimonial .card {
     font-size: 24px;
-    max-width: 400px;
 }
 
 #testimonial .card span {
@@ -212,6 +219,30 @@ footer #subscription-form .input-field input {
 
 footer #subscription-form .btn {
     height: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo-holder {
+        text-align: center;
+        width: 100%;
+    }
+    .logo-holder .logo {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .logo-holder {
+        text-align: center;
+        width: 100%;
+    }
+    .logo-holder .logo {
+        text-align: center;
+        display: block;
+    }
+    #nav .nav-wrapper {
+        float: right;
+    }
 }
 
 @media (min-width: 992px) {
